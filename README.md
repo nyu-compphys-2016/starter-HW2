@@ -1,3 +1,3 @@
 ## Homework 2
 
-Problem statement in [HW2-Problems.md](./HW2-Problems.md)
+Problem statement in [HW2-Problems.pdf](./HW2-Problems.pdf)
