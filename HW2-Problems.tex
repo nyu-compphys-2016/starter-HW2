@@ -34,7 +34,7 @@ basicstyle={\ttfamily}
 
 \end{center}
 
-Write python functions to calculate integrals using the (right-biased) Riemann Sum, Trapezoid Rule, Simpson's Rule, and Romberg integration.  Test your methods using the following integrals:
+Write python functions to calculate integrals using the (right-biased) Riemann Sum, Trapezoid Rule, Simpson's Rule, Romberg integration, and Gaussian Quadrature.  Use the provided \texttt{gaussxy.py} code to calculate the points and weights for Gaussian Quadrature.  Test your methods using the following integrals:
 \begin{align}
 & \int_0^{4\pi} x^2 \cos(x) \diff x \label{func1}\\
 & \int_0^{100\pi} x^2 \cos(x) \diff x \\
@@ -49,7 +49,7 @@ Write a \LaTeX{}  report discussing your results. It should include a short expl
 	\item Do the methods behave as expected for both small and large values of $N$?  Make sure to try both very small and very large values of $N$.
 	\item At what $N$ do the methods become dominated by rounding error?  Does this agree with theoretical predictions?
 	\item For function \eqref{func1}, are the error estimates for Trapezoid Rule and Simpson's Rule correct?
-	\item Look in detail at the convergence of Romberg Integration. Does it converge as a power law at all? Discuss.
+	\item Look in detail at the convergence of Romberg Integration and Gaussian Quadrature. Do they converge as a power law at all? Discuss.
 \end{itemize}
 
 Include the report \texttt{.tex} file and all Python files in the repo.  Also include either the \texttt{.pdf} version of the report, or all figures necessary to compile it from the \texttt{.tex} file.
